@@ -19,7 +19,10 @@ quick-sharun                    \
 	/usr/lib/libtcl*.so*        \
 	/usr/lib/libtk*.so*         \
 	/usr/lib/tcl*               \
-	/usr/lib/tk*
+	/usr/lib/tk*                \
+	/usr/lib/libspatialindex*.so* \
+	/usr/lib/libspatialite.so*  \
+	/usr/lib/libabsl_*_internal.so*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
